@@ -1,5 +1,3 @@
-# AXI4_PROTOCOL
-Parameterized AXI4 Slave RTL in SystemVerilog implementing independent read and write paths. Supports AW/W FIFOs, burst transfers (FIXED/INCR/WRAP), outstanding read transactions, slot-based read FSMs, dual-bank RAM arbitration, out-of-order responses, and UVM verification.
 # Advanced AXI4 Memory-Mapped Slave RTL
 
 An advanced parameterized **AXI4 Memory-Mapped Slave** implemented in **SystemVerilog** featuring independent read and write architectures. The design supports multiple outstanding read transactions, configurable burst transfers, dual-bank memory architecture, response buffering, and out-of-order read responses. The RTL is verified using **UVM** with constrained-random testing and AXI protocol assertions.
